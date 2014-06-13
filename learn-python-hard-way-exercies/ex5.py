@@ -34,7 +34,7 @@ print "He's %d pounds heavy." % weight
 print "Actually that's not too heavy."
 
 # Print color of eyes and hair.
-print "He's got %s eyes and %s hair." %(eyes, hair)
+print "He's got %s eyes and %s hair." % (eyes, hair)
 
 # Print teeth color and some sentence.
 print "His teeth are usually %s depending on the coffee." % teeth
