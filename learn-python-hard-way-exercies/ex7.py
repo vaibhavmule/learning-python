@@ -50,8 +50,8 @@ end12 = "r"
 
 # watch that comma at the end. try removing it to see what happnes
 
-# Print fisrt six variables using "+" concatnation and comma at the end.
-print end1 + end2 + end3 + end4 + end5 + end6,
+# Print fisrt six variables using "+" concatnation and comma at the end. 
+print end1 + end2 + end3 + end4 + end5 + end6, 
 
 # Print after six variables 
 print end7 + end8 + end9 + end10 + end11 + end12
