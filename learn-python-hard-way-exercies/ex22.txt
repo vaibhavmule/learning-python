@@ -1,0 +1,88 @@
+print
+	It prints numbers, strings
+
+"" (Double Quotes)
+	It is used for making strings
+
+# (octothrope, pound character)
+	It used for commenting so everybody can understand the code
++ plus
+	It used for addintion as well as concatnation.
+- minus
+	It used for subtraction.
+/ slash
+	It is used for dividation
+* asterisk
+	It used for multiplication
+% percent or Modulus
+	It is used to for getting modulus
+< less-than
+	It is used for comparison between numbers
+> greater-than
+	It is used for comparison between numbers
+<= less-than-equal
+>= greater-than-equal
+	checking number if it less than or greater than also equal too.
+, comma
+	It is used for printing strings in same line
+= equal 
+	it is used to store value in variable
+_ underscore 
+ 	it is used in variables names
+ %s format string
+ 	It is used for formatting string
+ %d format decimal
+ 	It is used for formatting numbers
+ () parenthesis
+ 	It is used in function
+ %r raw format
+ 	it is used for debugging
+ True and False
+ 	It is boolean
+ \n new line
+ 	It give new line
+ \t horizontal tab
+ 	It give tab
+\\ backlash
+\' single-quote
+\" double-quote
+
+raw_input() 
+	It is function that ask input from user
+? question mark
+	It is used at the end fo question
+from
+	from used to get packages
+sys 
+	It is package in python
+import 
+	It is used to get modules
+argv 
+	It is module that get argument
+open()
+	It is function that open a file
+read()
+	It is function to read the file
+close()
+	It is close the file and save it
+readline 
+	it reads the one line
+truncate
+	it empties the file
+write()
+	it is function to write the file
+os.path
+	it is packeges
+exists 
+	it is the module from os.path
+'w'
+	It is a string
+def 
+	it is define the function
+seek() 
+	 it is the funtion
+. dot
+
+
+
+
