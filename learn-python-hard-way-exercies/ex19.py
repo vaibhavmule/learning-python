@@ -34,6 +34,12 @@ amount_of_crackers = 50
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 # print a sentence 
+print "We can even do math inside too:"
+
+# call the functions with math expression
+cheese_and_crackers(10 + 20, 5 + 6)
+
+# print a sentence 
 print "And we can combine the two, variables and math:"
 
 # call the funciton with math expressions
