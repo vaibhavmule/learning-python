@@ -72,4 +72,5 @@ def start():
 	else:
 		dead("You stumble around the room until you strave.")
 
+
 start()
