@@ -4,7 +4,7 @@
 # which holds arguments that you pass on Pyhton script
 from sys import argv
 
-# Unpacking and assing argv values to Variables
+# Unpacking and assin argv values to Variables
 script, first, second, third = argv
 
 # Prining a sentence with variable

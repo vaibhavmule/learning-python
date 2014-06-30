@@ -1,0 +1,22 @@
+Sherlock holmes get the case that King of Russia forget his smartphone in big castle where he live. Sherlock holes went into castle to meet King and talk and he got the conlcusion that King can forget his mobile, may be in his Bedroom, Office, Gardern or while playing table tennis at sport club.
+
+Sherlock got mission and king told him that nobody should be known about this because if somebody caught smartphone they can do anything.
+
+Sherlock keeps these things in mind and told to watson about the case. "I'm sure he has forgot mobile in his "Bedroom" probally.:D" Wotson said. 
+
+--Both laughs--
+
+Sherlock was watching straight and ask Wotson to come with him. Both went to castle at night and they got all password to go into everyroom. 
+
+They went all room and investigate and found that King forgot his mobile in sport room because he forgot to took it back.
+
+ *Map
+  - next_room
+  - opening_room
+* Engine
+  - play
+*Castle
+  *Bedroom
+  *Sportroom
+  *Garden 
+  *Office
