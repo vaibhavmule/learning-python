@@ -4,12 +4,12 @@ from scrapy.http import Request
 
 class LoginSpider(scrapy.Spider):
 	name = 'keep'
-	start_urls = ['https://www.pinterest.com/login/']
+	start_urls = ['https://www.flipkart.com/affiliate/login']
 	
 	def parse(self, response):
 		return scrapy.FormRequest.from_response(
 		response,
-		formdata={'username_or_email': 'vaibhavmule135@gmail.com', 'password': 'raj-13579'},
+		formdata={'email': 'vaibhavmule135@gmail.com', 'password': '9860819262'},
 		callback=self.after_login
 		)
 		'''
@@ -25,5 +25,7 @@ class LoginSpider(scrapy.Spider):
 			self.log("Login failed", level=log.ERROR)
 			return
 		else:
-			print response.xpath('//span/text()').extract()
+			return Request(url="http://www.flipkart.com/landing",
+               callback=self.parse)
+			print response.xpath('//h1/text()').extract()
 			
