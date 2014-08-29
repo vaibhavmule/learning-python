@@ -7,3 +7,4 @@ urlpatterns = patterns('',
     url(r'^(?P<pk>[\w\d]+)/edit/$', PostUpdateView.as_view(), name='update'),
     url(r'^(?P<pk>[\w\d]+)/delete/$', PostDeleteView.as_view(), name='delete'),
 )
+

@@ -25,3 +25,4 @@ class PostForm(forms.Form):
             post.save()
 
         return post
+
