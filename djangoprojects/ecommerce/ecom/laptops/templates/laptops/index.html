@@ -46,7 +46,7 @@
     <div class="col-md-2">
         <div class="jumbotron">{{ list.productBrand }}<br>
         <img class="img-thumbnail img-responsive" src="{{ list.imageUrl }}"><br> 
-        <a href="{{ list.id }}">Buy {{ list.amount }}</a> 
+        <a href="{% url 'laptops:detail' list.id %}">Buy {{ list.amount }}</a> 
         </div>
     </div>
     {% endfor %}

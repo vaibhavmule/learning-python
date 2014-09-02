@@ -13,8 +13,5 @@ class IndexView(ListView):
 
 class LaptopDetail(DetailView):
 	model = Laptop
-	template_name = 'laptops/detail.html'
-	context_object_name = "detail"
 
-	def get_queryset(self):
-		return Laptop.objects.all()[0]
+

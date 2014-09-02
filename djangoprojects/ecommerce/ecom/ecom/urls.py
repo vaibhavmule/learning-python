@@ -10,7 +10,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'ecom.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-    url(r'^laptops/$', include('laptops.urls', namespace="laptops")),
+    url(r'^laptops/', include('laptops.urls', namespace="laptops")),
     url(r'^profile/$', 'ecom.views.profile', name='profile'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'ecom.views.home', name='home'),
