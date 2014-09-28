@@ -9,7 +9,7 @@ class IndexView(ListView):
 	context_object_name = 'product_list'
 
 	def get_queryset(self):
-		return Laptop.objects.all()[:5]
+		return Laptop.objects.all()[:20]
 
 class LaptopDetail(DetailView):
 	model = Laptop

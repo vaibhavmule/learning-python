@@ -44,8 +44,8 @@
 {% if product_list %}
     {% for list in product_list %}
     <div class="col-md-2">
-        <div class="jumbotron">{{ list.productBrand }}<br>
-        <img class="img-thumbnail img-responsive" src="{{ list.imageUrl }}"><br> 
+        <div>{{ list.productBrand }}<br>
+        <img class="img-responsive" src="{{ list.imageUrl }}" ><br> 
         <a href="{% url 'laptops:detail' list.id %}">Buy {{ list.amount }}</a> 
         </div>
     </div>
