@@ -3,7 +3,7 @@ from rest_framework import serializers
 from contact.models import Contact
 
 
-# class contactserializer(serializers.Serializer):
+# class ContactSerializer(serializers.Serializer):
 #     id = IntegerField(label='ID', read_only=True)
 #     name = CharField(allow_blank=True, max_length=100, required=False)
 #     number = IntegerField(required=False)
@@ -24,7 +24,7 @@ from contact.models import Contact
 #         return instance
 
 
-class Contactserializer(serializers.ModelSerializer):
+class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
         fields = ('id', 'name', 'number')
