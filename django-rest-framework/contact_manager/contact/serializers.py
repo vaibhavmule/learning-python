@@ -24,7 +24,14 @@ from contact.models import Contact
 #         return instance
 
 
-class ContactSerializer(serializers.ModelSerializer):
+# class ContactSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Contact
+#         fields = ('id', 'name', 'number')
+
+        
+
+class ContactSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Contact
-        fields = ('id', 'name', 'number')
+        fields = '__all__'
