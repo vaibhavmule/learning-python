@@ -1,0 +1,7 @@
+{% for post in posts %}
+	{{post.id}}
+	{{post.title}} by {{ post.author.name }}
+	<br>
+	{{post.body}}
+	<hr>
+{% endfor %}
