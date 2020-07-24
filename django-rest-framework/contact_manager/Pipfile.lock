@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c83f0057fff4ca953211938e248cef59fe0fba6ec0a83eedfed4c2b3936fcfb4"
+            "sha256": "b6ae0fc553577737ed27aec277d5ded3af7ac601456153337378ee98ac2134ae"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,14 +16,6 @@
         ]
     },
     "default": {
-        "appnope": {
-            "hashes": [
-                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
-                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.0"
-        },
         "backports-shutil-get-terminal-size": {
             "hashes": [
                 "sha256:0975ba55054c15e346944b38956a4c9cbee9009391e41b86c68990effb8c1f64"
@@ -57,11 +49,11 @@
         },
         "djangorestframework": {
             "hashes": [
-                "sha256:34f588119a6de012a0cbe3836c31a2d5f620993c3b955f64c951a3072e617e47",
-                "sha256:6d1f00a91b8d45f88a482720996c587b3488ca69b37880d670e5fa034123efa1"
+                "sha256:79c6efbb2514bc50cf25906d7c0a5cfead714c7af667ff4bd110312cd380ae66",
+                "sha256:a4138613b67e3a223be6c97f53b13d759c5b90d2b433bad670b8ebf95402075f"
             ],
             "index": "pypi",
-            "version": "==3.4.7"
+            "version": "==3.9.1"
         },
         "enum34": {
             "hashes": [
